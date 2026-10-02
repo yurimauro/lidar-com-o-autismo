@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Autismo — Um Guia para Compreender e Acolher</title>
+<meta name="description" content="Guia educativo sobre autismo, respeito, inclusão e apoio para famílias, educadores e cuidadores.">
+<style>
+:root{--bg:#f6f4f1;--paper:#fff;--ink:#25313a;--muted:#66737d;--accent:#557c82;--accent2:#8ba9a3;--soft:#e8f0ee;--line:#dde4e2;--shadow:0 18px 50px rgba(40,60,60,.10)}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{background:linear-gradient(135deg,#345d63,#71978f);color:#fff;padding:74px 20px 66px;position:relative;overflow:hidden}
+header:after{content:"";position:absolute;width:360px;height:360px;border-radius:50%;right:-120px;top:-160px;background:rgba(255,255,255,.10)}
+.hero{max-width:1080px;margin:auto;position:relative;z-index:1}
+.kicker{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:800;opacity:.85}
+h1{font-family:Georgia,serif;font-size:clamp(2.6rem,7vw,5.2rem);line-height:.98;margin:16px 0}
+.subtitle{font-size:clamp(1.05rem,2vw,1.35rem);max-width:720px;opacity:.94}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.badges span{padding:7px 12px;border:1px solid rgba(255,255,255,.3);border-radius:99px;background:rgba(255,255,255,.1)}
+.layout{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:280px 1fr;gap:28px;padding:28px 18px}
+aside{position:sticky;top:18px;align-self:start;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:var(--shadow);max-height:calc(100vh - 36px);overflow:auto}
+aside strong{display:block;margin-bottom:12px}
+aside a{display:block;text-decoration:none;color:var(--muted);padding:7px 8px;border-radius:9px;font-size:.91rem}
+aside a:hover{background:var(--soft);color:var(--ink)}
+.chapter{background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:36px clamp(24px,5vw,54px);margin-bottom:22px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.chapter-num{color:var(--accent);font-weight:900;letter-spacing:.12em;font-size:.78rem}
+h2{font-family:Georgia,serif;font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:8px 0 24px}
+h3{font-size:1.1rem;margin-top:28px;color:var(--accent)}
+.content ul{padding-left:22px}
+.content li{margin:5px 0}
+.note{background:#fff7df;border-left:5px solid #d8b85c;padding:16px 18px;border-radius:10px;margin-top:24px}
+.routine{display:grid;gap:8px;background:var(--soft);padding:18px;border-radius:16px;margin:20px 0}
+.routine span{background:#fff;padding:8px 12px;border-radius:9px}
+.myth{border:1px solid var(--line);border-radius:15px;padding:16px;margin:12px 0}
+.myth b{display:block}
+.myth span{color:var(--muted)}
+.quote{font-family:Georgia,serif;font-size:1.7rem;text-align:center;padding:26px;background:var(--soft);border-radius:18px;margin:24px 0}
+.pillars{display:grid;gap:10px;margin-top:28px}
+.pillars span{padding:15px 18px;background:var(--soft);border-radius:13px;font-weight:800}
+footer{text-align:center;padding:55px 20px;color:var(--muted)}
+footer strong{color:var(--ink)}
+.top{position:fixed;right:18px;bottom:18px;background:var(--ink);color:#fff;text-decoration:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 25px #0002}
+@media(max-width:850px){.layout{grid-template-columns:1fr}aside{position:relative;top:0;max-height:none}header{padding-top:52px}.chapter{padding:28px 22px}}
+@media print{aside,.top{display:none}.layout{display:block}.chapter{box-shadow:none;break-inside:avoid}header{color:#000;background:#eee}}
+</style>
+</head>
+<body id="top">
+<header>
+<div class="hero">
+<div class="kicker">Guia educativo</div>
+<h1>Autismo</h1>
+<div class="subtitle">Um Guia para Compreender e Acolher</div>
+<p>Informação, respeito, inclusão e apoio para famílias, educadores e cuidadores.</p>
+<div class="badges"><span>Informação</span><span>Respeito</span><span>Inclusão</span><span>Apoio</span></div>
+</div>
+</header>
+<main class="layout">
+<aside><strong>Conteúdo</strong><a href="#cap1">Apresentação</a>
+<a href="#cap2">O que é o autismo?</a>
+<a href="#cap3">O que significa “espectro”?</a>
+<a href="#cap4">Características que podem estar presentes</a>
+<a href="#cap5">Comunicação e interação social</a>
+<a href="#cap6">Comportamentos, interesses e rotina</a>
+<a href="#cap7">Sensibilidade sensorial</a>
+<a href="#cap8">Diagnóstico e avaliação profissional</a>
+<a href="#cap9">Autismo na infância</a>
+<a href="#cap10">Autismo na adolescência e na vida adulta</a>
+<a href="#cap11">Autismo e educação</a>
+<a href="#cap12">Família e rede de apoio</a>
+<a href="#cap13">Intervenções e acompanhamento</a>
+<a href="#cap14">Mitos e verdades</a>
+<a href="#cap15">Como promover a inclusão</a>
+<a href="#cap16">Direitos e cidadania</a>
+<a href="#cap17">Como acolher uma pessoa autista</a>
+<a href="#cap18">Conclusão</a>
+<a href="#cap19">Referências para aprofundamento</a></aside>
+<section>
+<article id="cap1" class="chapter"><div class="chapter-num">01</div><h2>Apresentação</h2><div class="content">Falar sobre autismo é falar sobre diversidade humana.<br><br>
+O Transtorno do Espectro Autista (TEA) é uma condição do neurodesenvolvimento que pode influenciar a maneira como uma pessoa se comunica, interage socialmente, percebe o ambiente e desenvolve determinados padrões de comportamento e interesses.<br><br>
+Cada pessoa autista é única. Algumas precisam de pouco apoio no cotidiano, enquanto outras necessitam de suporte significativo para comunicação, autocuidado, aprendizagem ou outras atividades.<br><br>
+Por isso, conhecer o autismo é importante não apenas para identificar possíveis sinais, mas principalmente para aprender a respeitar diferentes formas de perceber, compreender e participar do mundo.<br><br>
+Este e-book foi desenvolvido como material educativo para famílias, professores, cuidadores e pessoas interessadas em compreender melhor o autismo.<br><br>
+<strong>Importante:</strong> informações deste livro não substituem avaliação, diagnóstico ou acompanhamento de profissionais de saúde e educação.</div></article>
+<article id="cap2" class="chapter"><div class="chapter-num">02</div><h2>O que é o autismo?</h2><div class="content">O Transtorno do Espectro Autista é uma condição do neurodesenvolvimento.<br><br>
+De forma geral, o autismo está associado a características relacionadas à comunicação e à interação social, além de padrões restritos ou repetitivos de comportamentos, interesses ou atividades.<br><br>
+Essas características podem aparecer de maneiras muito diferentes entre as pessoas.
+<ul><li>Diferenças na comunicação verbal ou não verbal</li><li>Dificuldade para compreender determinadas regras sociais implícitas</li><li>Interesses muito intensos por determinados assuntos</li><li>Preferência por rotinas previsíveis</li><li>Movimentos repetitivos</li><li>Sensibilidades a sons, luzes, cheiros, texturas ou outras sensações</li><li>Necessidade de apoio em determinadas situações</li></ul>
+Ter uma característica isolada não significa que uma pessoa seja autista. O diagnóstico depende de uma avaliação profissional abrangente.</div></article>
+<article id="cap3" class="chapter"><div class="chapter-num">03</div><h2>O que significa “espectro”?</h2><div class="content">A palavra “espectro” destaca a grande diversidade existente dentro do autismo.<br><br>
+Duas pessoas autistas podem ter características bastante diferentes. Uma pode falar fluentemente, estudar, trabalhar e viver de forma relativamente independente, mas enfrentar dificuldades importantes em situações sociais ou sensoriais. Outra pode utilizar pouca ou nenhuma fala e precisar de apoio significativo para comunicação, aprendizagem e atividades diárias.<br><br>
+Também existem pessoas que apresentam necessidades de suporte que mudam ao longo da vida ou conforme o ambiente.<br><br>
+<strong>Não existe um único jeito de ser autista.</strong></div></article>
+<article id="cap4" class="chapter"><div class="chapter-num">04</div><h2>Características que podem estar presentes</h2><div class="content">As características do autismo podem ser percebidas de diferentes formas.
+<h3>Comunicação</h3><ul><li>Desenvolver a fala mais tarde</li><li>Utilizar poucas palavras ou nenhuma fala</li><li>Repetir palavras ou frases</li><li>Interpretar determinadas expressões de maneira literal</li><li>Dificuldade para iniciar ou manter conversas</li><li>Utilizar formas alternativas de comunicação</li></ul>
+<h3>Interação social</h3><ul><li>Diferenças na maneira de iniciar interações</li><li>Manter conversas</li><li>Compreender pistas sociais</li><li>Interpretar expressões faciais</li><li>Compartilhar interesses</li><li>Compreender convenções sociais</li></ul>
+<h3>Comportamentos e interesses</h3><ul><li>Movimentos repetitivos</li><li>Forte preferência por determinadas rotinas</li><li>Interesses muito específicos</li><li>Necessidade de previsibilidade</li><li>Desconforto diante de mudanças inesperadas</li></ul></div></article>
+<article id="cap5" class="chapter"><div class="chapter-num">05</div><h2>Comunicação e interação social</h2><div class="content">Comunicação não significa apenas falar.<br><br>
+Uma pessoa pode se comunicar por meio de fala, gestos, expressões, escrita, desenhos, imagens, dispositivos eletrônicos e sistemas de comunicação alternativa e aumentativa.<br><br>
+Quando uma pessoa apresenta dificuldade de fala, isso não significa necessariamente ausência de compreensão, pensamentos, emoções ou desejos.
+<h3>Dicas para facilitar a comunicação</h3><ul><li>Use linguagem clara.</li><li>Dê tempo para a pessoa responder.</li><li>Evite interromper constantemente.</li><li>Utilize recursos visuais quando forem úteis.</li><li>Confirme se a mensagem foi compreendida.</li><li>Respeite diferentes formas de expressão.</li><li>Não obrigue a pessoa a manter contato visual.</li></ul>
+O objetivo deve ser facilitar a comunicação, e não obrigar a pessoa a se comportar de uma única maneira.</div></article>
+<article id="cap6" class="chapter"><div class="chapter-num">06</div><h2>Comportamentos, interesses e rotina</h2><div class="content">A previsibilidade pode ser importante para algumas pessoas autistas. Mudanças inesperadas podem provocar ansiedade, desconforto ou dificuldade de adaptação.<br><br>
+Uma rotina visual pode ajudar:<div class="routine"><b>MANHÃ</b><span>07:00 — Acordar</span><span>07:15 — Higiene</span><span>07:30 — Café da manhã</span><span>08:00 — Escola ou trabalho</span></div>
+Quando uma mudança for necessária, pode ser útil avisar com antecedência e explicar o que acontecerá.<br><br>
+Interesses intensos também podem ter papel importante na aprendizagem e na motivação. Em vez de simplesmente impedir um interesse, familiares e educadores podem procurar maneiras de utilizá-lo como ponto de conexão e aprendizagem.</div></article>
+<article id="cap7" class="chapter"><div class="chapter-num">07</div><h2>Sensibilidade sensorial</h2><div class="content">Algumas pessoas autistas apresentam diferenças na maneira como percebem estímulos sensoriais.<br><br>
+Podem existir sensibilidades relacionadas a sons, luz, cheiros, sabores, texturas, temperatura, toque e movimento.<br><br>
+Um ambiente aparentemente normal para uma pessoa pode ser extremamente desconfortável para outra.
+<h3>Como ajudar?</h3><ul><li>Reduza estímulos desnecessários.</li><li>Ofereça um espaço tranquilo.</li><li>Avise antes de situações potencialmente desconfortáveis.</li><li>Respeite sinais de sobrecarga.</li><li>Identifique ambientes ou situações mais difíceis.</li></ul>
+O objetivo é criar condições para que a pessoa participe do cotidiano com mais conforto e segurança.</div></article>
+<article id="cap8" class="chapter"><div class="chapter-num">08</div><h2>Diagnóstico e avaliação profissional</h2><div class="content">O diagnóstico do autismo é clínico. Não existe um exame de sangue ou uma única avaliação capaz de determinar, sozinha, se uma pessoa é autista.<br><br>
+A avaliação pode considerar histórico do desenvolvimento, comunicação, interação social, comportamento, funcionamento cotidiano, características observadas em diferentes ambientes e informações da pessoa, família ou cuidadores.<br><br>
+Profissionais de diferentes áreas podem participar do processo. É importante procurar profissionais qualificados.
+<div class="note"><strong>Atenção:</strong> listas de sinais disponíveis na internet podem ajudar a identificar a necessidade de buscar orientação, mas <strong>não substituem avaliação profissional</strong>.</div></div></article>
+<article id="cap9" class="chapter"><div class="chapter-num">09</div><h2>Autismo na infância</h2><div class="content">Na infância, algumas características podem ser percebidas durante o desenvolvimento.<br><br>
+Entre os sinais que podem justificar uma conversa com profissionais estão diferenças persistentes relacionadas à comunicação, interação social, brincadeiras, interesses, comportamentos repetitivos ou respostas sensoriais.<br><br>
+Cada criança possui seu próprio ritmo de desenvolvimento. A observação deve ser cuidadosa e considerar a criança como um todo.</div></article>
+<article id="cap10" class="chapter"><div class="chapter-num">10</div><h2>Autismo na adolescência e na vida adulta</h2><div class="content">O autismo não desaparece porque a pessoa cresce. As necessidades podem mudar ao longo da vida.<br><br>
+Na adolescência e na vida adulta, algumas pessoas podem enfrentar desafios relacionados a amizades, relacionamentos, estudo, trabalho, organização, autonomia, mudanças de rotina e ambientes com muitos estímulos.<br><br>
+Algumas pessoas recebem o diagnóstico ainda na infância. Outras são identificadas apenas na adolescência ou na vida adulta.</div></article>
+<article id="cap11" class="chapter"><div class="chapter-num">11</div><h2>Autismo e educação</h2><div class="content">A educação inclusiva deve considerar as necessidades individuais de cada estudante.
+<ul><li>Instruções objetivas</li><li>Rotina visual</li><li>Antecipação de mudanças</li><li>Materiais adaptados quando necessários</li><li>Organização do ambiente</li><li>Tempo adequado para realização das atividades</li><li>Diferentes formas de demonstrar conhecimento</li><li>Comunicação entre escola e família</li></ul>
+A inclusão não significa simplesmente colocar o estudante na mesma sala. É necessário pensar em participação, aprendizagem, acessibilidade, respeito e pertencimento.</div></article>
+<article id="cap12" class="chapter"><div class="chapter-num">12</div><h2>Família e rede de apoio</h2><div class="content">Receber um diagnóstico pode provocar diferentes emoções. Famílias podem experimentar dúvidas, medo, alívio, preocupação ou muitas outras reações.<br><br>
+Uma rede de apoio pode envolver familiares, professores, profissionais de saúde, profissionais da educação, associações, grupos de apoio e comunidade.<br><br>
+Também é importante lembrar que os cuidadores precisam de apoio. Cuidar de outra pessoa não significa deixar de cuidar de si mesmo.</div></article>
+<article id="cap13" class="chapter"><div class="chapter-num">13</div><h2>Intervenções e acompanhamento</h2><div class="content">O acompanhamento deve ser individualizado. Dependendo das necessidades da pessoa, podem participar profissionais de psicologia, fonoaudiologia, terapia ocupacional, fisioterapia, medicina, pedagogia e educação especializada, entre outras áreas pertinentes.<br><br>
+O objetivo do acompanhamento não deve ser simplesmente fazer a pessoa parecer “menos autista”. O foco deve estar em promover comunicação, autonomia, participação, aprendizagem, segurança e qualidade de vida.<br><br>
+Qualquer intervenção deve considerar evidências científicas, necessidades individuais, objetivos claros e respeito à pessoa.</div></article>
+<article id="cap14" class="chapter"><div class="chapter-num">14</div><h2>Mitos e verdades</h2><div class="content"><div class="myth"><b>“Toda pessoa autista é igual.”</b><span>MITO — O espectro é amplo e as características variam significativamente.</span></div>
+<div class="myth"><b>“Toda pessoa autista não fala.”</b><span>MITO — Algumas pessoas não utilizam fala, enquanto outras possuem linguagem verbal fluente.</span></div>
+<div class="myth"><b>“Autismo é causado por falta de carinho dos pais.”</b><span>MITO — Essa afirmação não corresponde ao conhecimento científico atual.</span></div>
+<div class="myth"><b>“Vacinas causam autismo.”</b><span>MITO — As evidências científicas disponíveis não sustentam uma relação causal entre vacinação e autismo.</span></div>
+<div class="myth"><b>“Pessoas autistas podem aprender.”</b><span>VERDADE — Podem aprender e desenvolver habilidades, com caminhos, ritmos e apoios variados.</span></div>
+<div class="myth"><b>“O autismo pode desaparecer com uma terapia.”</b><span>MITO — Intervenções podem apoiar habilidades, autonomia e qualidade de vida, mas não devem ser apresentadas como uma “cura” garantida.</span></div></div></article>
+<article id="cap15" class="chapter"><div class="chapter-num">15</div><h2>Como promover a inclusão</h2><div class="content">A inclusão começa pelo respeito.
+<ul><li>Pergunte antes de ajudar.</li><li>Respeite limites.</li><li>Evite infantilizar adultos autistas.</li><li>Não presuma incapacidade.</li><li>Ofereça comunicação acessível.</li><li>Respeite diferentes formas de interação.</li><li>Reduza barreiras sensoriais quando possível.</li><li>Combata preconceitos e estereótipos.</li><li>Valorize autonomia.</li></ul>
+Uma sociedade inclusiva não exige que todas as pessoas sejam iguais. Ela procura garantir que diferentes pessoas possam participar dela.</div></article>
+<article id="cap16" class="chapter"><div class="chapter-num">16</div><h2>Direitos e cidadania</h2><div class="content">No Brasil, pessoas com deficiência possuem direitos previstos em legislação, e o autismo é reconhecido juridicamente para fins de proteção de direitos.<br><br>
+Entre os temas relacionados à cidadania e inclusão estão educação, saúde, acessibilidade, assistência social, trabalho, participação social e proteção contra discriminação.<br><br>
+Como regras, procedimentos e documentos podem mudar, é importante consultar fontes oficiais e atualizadas para verificar os direitos aplicáveis a cada situação.</div></article>
+<article id="cap17" class="chapter"><div class="chapter-num">17</div><h2>Como acolher uma pessoa autista</h2><div class="content">Acolher não significa tratar todos da mesma maneira. Significa compreender que cada pessoa pode precisar de diferentes tipos de apoio.
+<div class="quote">“Como posso ajudar?”</div>
+<h3>Evite</h3><ul><li>Forçar contato visual</li><li>Ridicularizar movimentos repetitivos</li><li>Punir uma pessoa por apresentar uma sobrecarga sensorial</li><li>Presumir que ausência de fala significa ausência de compreensão</li><li>Tratar adultos como crianças</li><li>Utilizar o diagnóstico como justificativa para excluir alguém</li></ul>
+<h3>Procure</h3><ul><li>Ouvir</li><li>Observar</li><li>Adaptar</li><li>Respeitar</li><li>Oferecer escolhas</li><li>Incentivar autonomia</li></ul></div></article>
+<article id="cap18" class="chapter"><div class="chapter-num">18</div><h2>Conclusão</h2><div class="content">Compreender o autismo é compreender que existem diferentes maneiras de perceber, comunicar e experimentar o mundo.<br><br>
+Informação de qualidade pode ajudar famílias e profissionais a reconhecer necessidades, buscar apoio adequado e reduzir preconceitos.<br><br>
+Mais do que conhecer características e diagnósticos, é importante enxergar a pessoa.<br><br>
+Cada pessoa autista possui sua própria personalidade, história, interesses, habilidades, dificuldades, desejos e objetivos.<br><br>
+Inclusão significa criar condições para que essa pessoa possa participar da família, da escola, do trabalho e da sociedade com respeito e dignidade.
+<div class="pillars"><span>Conhecimento abre portas.</span><span>Respeito constrói pontes.</span><span>Inclusão transforma ambientes.</span></div></div></article>
+<article id="cap19" class="chapter"><div class="chapter-num">19</div><h2>Referências para aprofundamento</h2><div class="content">Para obter informações atualizadas e confiáveis, procure fontes como:
+<ul><li>Organização Mundial da Saúde (OMS)</li><li>Ministério da Saúde</li><li>Legislação brasileira sobre os direitos das pessoas com deficiência</li><li>Instituições acadêmicas e profissionais reconhecidas</li><li>Diretrizes clínicas e publicações científicas sobre transtorno do espectro autista</li></ul>
+<strong>Observação:</strong> este e-book tem finalidade educativa e não substitui avaliação ou orientação individualizada de profissionais qualificados.</div></article>
+</section>
+</main>
+<footer>
+<p><strong>“Antes de enxergar o diagnóstico, enxergue a pessoa.”</strong></p>
+<p>Que este material possa contribuir para uma sociedade com mais informação, respeito, acessibilidade e inclusão.</p>
+</footer>
+<a class="top" href="#top" aria-label="Voltar ao topo">↑</a>
+</body>
+</html><!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Autismo — Um Guia para Compreender e Acolher</title>
+<meta name="description" content="Guia educativo sobre autismo, respeito, inclusão e apoio para famílias, educadores e cuidadores.">
+<style>
+:root{--bg:#f6f4f1;--paper:#fff;--ink:#25313a;--muted:#66737d;--accent:#557c82;--accent2:#8ba9a3;--soft:#e8f0ee;--line:#dde4e2;--shadow:0 18px 50px rgba(40,60,60,.10)}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{background:linear-gradient(135deg,#345d63,#71978f);color:#fff;padding:74px 20px 66px;position:relative;overflow:hidden}
+header:after{content:"";position:absolute;width:360px;height:360px;border-radius:50%;right:-120px;top:-160px;background:rgba(255,255,255,.10)}
+.hero{max-width:1080px;margin:auto;position:relative;z-index:1}
+.kicker{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:800;opacity:.85}
+h1{font-family:Georgia,serif;font-size:clamp(2.6rem,7vw,5.2rem);line-height:.98;margin:16px 0}
+.subtitle{font-size:clamp(1.05rem,2vw,1.35rem);max-width:720px;opacity:.94}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.badges span{padding:7px 12px;border:1px solid rgba(255,255,255,.3);border-radius:99px;background:rgba(255,255,255,.1)}
+.layout{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:280px 1fr;gap:28px;padding:28px 18px}
+aside{position:sticky;top:18px;align-self:start;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:var(--shadow);max-height:calc(100vh - 36px);overflow:auto}
+aside strong{display:block;margin-bottom:12px}
+aside a{display:block;text-decoration:none;color:var(--muted);padding:7px 8px;border-radius:9px;font-size:.91rem}
+aside a:hover{background:var(--soft);color:var(--ink)}
+.chapter{background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:36px clamp(24px,5vw,54px);margin-bottom:22px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.chapter-num{color:var(--accent);font-weight:900;letter-spacing:.12em;font-size:.78rem}
+h2{font-family:Georgia,serif;font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:8px 0 24px}
+h3{font-size:1.1rem;margin-top:28px;color:var(--accent)}
+.content ul{padding-left:22px}
+.content li{margin:5px 0}
+.note{background:#fff7df;border-left:5px solid #d8b85c;padding:16px 18px;border-radius:10px;margin-top:24px}
+.routine{display:grid;gap:8px;background:var(--soft);padding:18px;border-radius:16px;margin:20px 0}
+.routine span{background:#fff;padding:8px 12px;border-radius:9px}
+.myth{border:1px solid var(--line);border-radius:15px;padding:16px;margin:12px 0}
+.myth b{display:block}
+.myth span{color:var(--muted)}
+.quote{font-family:Georgia,serif;font-size:1.7rem;text-align:center;padding:26px;background:var(--soft);border-radius:18px;margin:24px 0}
+.pillars{display:grid;gap:10px;margin-top:28px}
+.pillars span{padding:15px 18px;background:var(--soft);border-radius:13px;font-weight:800}
+footer{text-align:center;padding:55px 20px;color:var(--muted)}
+footer strong{color:var(--ink)}
+.top{position:fixed;right:18px;bottom:18px;background:var(--ink);color:#fff;text-decoration:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 25px #0002}
+@media(max-width:850px){.layout{grid-template-columns:1fr}aside{position:relative;top:0;max-height:none}header{padding-top:52px}.chapter{padding:28px 22px}}
+@media print{aside,.top{display:none}.layout{display:block}.chapter{box-shadow:none;break-inside:avoid}header{color:#000;background:#eee}}
+</style>
+</head>
+<body id="top">
+<header>
+<div class="hero">
+<div class="kicker">Guia educativo</div>
+<h1>Autismo</h1>
+<div class="subtitle">Um Guia para Compreender e Acolher</div>
+<p>Informação, respeito, inclusão e apoio para famílias, educadores e cuidadores.</p>
+<div class="badges"><span>Informação</span><span>Respeito</span><span>Inclusão</span><span>Apoio</span></div>
+</div>
+</header>
+<main class="layout">
+<aside><strong>Conteúdo</strong><a href="#cap1">Apresentação</a>
+<a href="#cap2">O que é o autismo?</a>
+<a href="#cap3">O que significa “espectro”?</a>
+<a href="#cap4">Características que podem estar presentes</a>
+<a href="#cap5">Comunicação e interação social</a>
+<a href="#cap6">Comportamentos, interesses e rotina</a>
+<a href="#cap7">Sensibilidade sensorial</a>
+<a href="#cap8">Diagnóstico e avaliação profissional</a>
+<a href="#cap9">Autismo na infância</a>
+<a href="#cap10">Autismo na adolescência e na vida adulta</a>
+<a href="#cap11">Autismo e educação</a>
+<a href="#cap12">Família e rede de apoio</a>
+<a href="#cap13">Intervenções e acompanhamento</a>
+<a href="#cap14">Mitos e verdades</a>
+<a href="#cap15">Como promover a inclusão</a>
+<a href="#cap16">Direitos e cidadania</a>
+<a href="#cap17">Como acolher uma pessoa autista</a>
+<a href="#cap18">Conclusão</a>
+<a href="#cap19">Referências para aprofundamento</a></aside>
+<section>
+<article id="cap1" class="chapter"><div class="chapter-num">01</div><h2>Apresentação</h2><div class="content">Falar sobre autismo é falar sobre diversidade humana.<br><br>
+O Transtorno do Espectro Autista (TEA) é uma condição do neurodesenvolvimento que pode influenciar a maneira como uma pessoa se comunica, interage socialmente, percebe o ambiente e desenvolve determinados padrões de comportamento e interesses.<br><br>
+Cada pessoa autista é única. Algumas precisam de pouco apoio no cotidiano, enquanto outras necessitam de suporte significativo para comunicação, autocuidado, aprendizagem ou outras atividades.<br><br>
+Por isso, conhecer o autismo é importante não apenas para identificar possíveis sinais, mas principalmente para aprender a respeitar diferentes formas de perceber, compreender e participar do mundo.<br><br>
+Este e-book foi desenvolvido como material educativo para famílias, professores, cuidadores e pessoas interessadas em compreender melhor o autismo.<br><br>
+<strong>Importante:</strong> informações deste livro não substituem avaliação, diagnóstico ou acompanhamento de profissionais de saúde e educação.</div></article>
+<article id="cap2" class="chapter"><div class="chapter-num">02</div><h2>O que é o autismo?</h2><div class="content">O Transtorno do Espectro Autista é uma condição do neurodesenvolvimento.<br><br>
+De forma geral, o autismo está associado a características relacionadas à comunicação e à interação social, além de padrões restritos ou repetitivos de comportamentos, interesses ou atividades.<br><br>
+Essas características podem aparecer de maneiras muito diferentes entre as pessoas.
+<ul><li>Diferenças na comunicação verbal ou não verbal</li><li>Dificuldade para compreender determinadas regras sociais implícitas</li><li>Interesses muito intensos por determinados assuntos</li><li>Preferência por rotinas previsíveis</li><li>Movimentos repetitivos</li><li>Sensibilidades a sons, luzes, cheiros, texturas ou outras sensações</li><li>Necessidade de apoio em determinadas situações</li></ul>
+Ter uma característica isolada não significa que uma pessoa seja autista. O diagnóstico depende de uma avaliação profissional abrangente.</div></article>
+<article id="cap3" class="chapter"><div class="chapter-num">03</div><h2>O que significa “espectro”?</h2><div class="content">A palavra “espectro” destaca a grande diversidade existente dentro do autismo.<br><br>
+Duas pessoas autistas podem ter características bastante diferentes. Uma pode falar fluentemente, estudar, trabalhar e viver de forma relativamente independente, mas enfrentar dificuldades importantes em situações sociais ou sensoriais. Outra pode utilizar pouca ou nenhuma fala e precisar de apoio significativo para comunicação, aprendizagem e atividades diárias.<br><br>
+Também existem pessoas que apresentam necessidades de suporte que mudam ao longo da vida ou conforme o ambiente.<br><br>
+<strong>Não existe um único jeito de ser autista.</strong></div></article>
+<article id="cap4" class="chapter"><div class="chapter-num">04</div><h2>Características que podem estar presentes</h2><div class="content">As características do autismo podem ser percebidas de diferentes formas.
+<h3>Comunicação</h3><ul><li>Desenvolver a fala mais tarde</li><li>Utilizar poucas palavras ou nenhuma fala</li><li>Repetir palavras ou frases</li><li>Interpretar determinadas expressões de maneira literal</li><li>Dificuldade para iniciar ou manter conversas</li><li>Utilizar formas alternativas de comunicação</li></ul>
+<h3>Interação social</h3><ul><li>Diferenças na maneira de iniciar interações</li><li>Manter conversas</li><li>Compreender pistas sociais</li><li>Interpretar expressões faciais</li><li>Compartilhar interesses</li><li>Compreender convenções sociais</li></ul>
+<h3>Comportamentos e interesses</h3><ul><li>Movimentos repetitivos</li><li>Forte preferência por determinadas rotinas</li><li>Interesses muito específicos</li><li>Necessidade de previsibilidade</li><li>Desconforto diante de mudanças inesperadas</li></ul></div></article>
+<article id="cap5" class="chapter"><div class="chapter-num">05</div><h2>Comunicação e interação social</h2><div class="content">Comunicação não significa apenas falar.<br><br>
+Uma pessoa pode se comunicar por meio de fala, gestos, expressões, escrita, desenhos, imagens, dispositivos eletrônicos e sistemas de comunicação alternativa e aumentativa.<br><br>
+Quando uma pessoa apresenta dificuldade de fala, isso não significa necessariamente ausência de compreensão, pensamentos, emoções ou desejos.
+<h3>Dicas para facilitar a comunicação</h3><ul><li>Use linguagem clara.</li><li>Dê tempo para a pessoa responder.</li><li>Evite interromper constantemente.</li><li>Utilize recursos visuais quando forem úteis.</li><li>Confirme se a mensagem foi compreendida.</li><li>Respeite diferentes formas de expressão.</li><li>Não obrigue a pessoa a manter contato visual.</li></ul>
+O objetivo deve ser facilitar a comunicação, e não obrigar a pessoa a se comportar de uma única maneira.</div></article>
+<article id="cap6" class="chapter"><div class="chapter-num">06</div><h2>Comportamentos, interesses e rotina</h2><div class="content">A previsibilidade pode ser importante para algumas pessoas autistas. Mudanças inesperadas podem provocar ansiedade, desconforto ou dificuldade de adaptação.<br><br>
+Uma rotina visual pode ajudar:<div class="routine"><b>MANHÃ</b><span>07:00 — Acordar</span><span>07:15 — Higiene</span><span>07:30 — Café da manhã</span><span>08:00 — Escola ou trabalho</span></div>
+Quando uma mudança for necessária, pode ser útil avisar com antecedência e explicar o que acontecerá.<br><br>
+Interesses intensos também podem ter papel importante na aprendizagem e na motivação. Em vez de simplesmente impedir um interesse, familiares e educadores podem procurar maneiras de utilizá-lo como ponto de conexão e aprendizagem.</div></article>
+<article id="cap7" class="chapter"><div class="chapter-num">07</div><h2>Sensibilidade sensorial</h2><div class="content">Algumas pessoas autistas apresentam diferenças na maneira como percebem estímulos sensoriais.<br><br>
+Podem existir sensibilidades relacionadas a sons, luz, cheiros, sabores, texturas, temperatura, toque e movimento.<br><br>
+Um ambiente aparentemente normal para uma pessoa pode ser extremamente desconfortável para outra.
+<h3>Como ajudar?</h3><ul><li>Reduza estímulos desnecessários.</li><li>Ofereça um espaço tranquilo.</li><li>Avise antes de situações potencialmente desconfortáveis.</li><li>Respeite sinais de sobrecarga.</li><li>Identifique ambientes ou situações mais difíceis.</li></ul>
+O objetivo é criar condições para que a pessoa participe do cotidiano com mais conforto e segurança.</div></article>
+<article id="cap8" class="chapter"><div class="chapter-num">08</div><h2>Diagnóstico e avaliação profissional</h2><div class="content">O diagnóstico do autismo é clínico. Não existe um exame de sangue ou uma única avaliação capaz de determinar, sozinha, se uma pessoa é autista.<br><br>
+A avaliação pode considerar histórico do desenvolvimento, comunicação, interação social, comportamento, funcionamento cotidiano, características observadas em diferentes ambientes e informações da pessoa, família ou cuidadores.<br><br>
+Profissionais de diferentes áreas podem participar do processo. É importante procurar profissionais qualificados.
+<div class="note"><strong>Atenção:</strong> listas de sinais disponíveis na internet podem ajudar a identificar a necessidade de buscar orientação, mas <strong>não substituem avaliação profissional</strong>.</div></div></article>
+<article id="cap9" class="chapter"><div class="chapter-num">09</div><h2>Autismo na infância</h2><div class="content">Na infância, algumas características podem ser percebidas durante o desenvolvimento.<br><br>
+Entre os sinais que podem justificar uma conversa com profissionais estão diferenças persistentes relacionadas à comunicação, interação social, brincadeiras, interesses, comportamentos repetitivos ou respostas sensoriais.<br><br>
+Cada criança possui seu próprio ritmo de desenvolvimento. A observação deve ser cuidadosa e considerar a criança como um todo.</div></article>
+<article id="cap10" class="chapter"><div class="chapter-num">10</div><h2>Autismo na adolescência e na vida adulta</h2><div class="content">O autismo não desaparece porque a pessoa cresce. As necessidades podem mudar ao longo da vida.<br><br>
+Na adolescência e na vida adulta, algumas pessoas podem enfrentar desafios relacionados a amizades, relacionamentos, estudo, trabalho, organização, autonomia, mudanças de rotina e ambientes com muitos estímulos.<br><br>
+Algumas pessoas recebem o diagnóstico ainda na infância. Outras são identificadas apenas na adolescência ou na vida adulta.</div></article>
+<article id="cap11" class="chapter"><div class="chapter-num">11</div><h2>Autismo e educação</h2><div class="content">A educação inclusiva deve considerar as necessidades individuais de cada estudante.
+<ul><li>Instruções objetivas</li><li>Rotina visual</li><li>Antecipação de mudanças</li><li>Materiais adaptados quando necessários</li><li>Organização do ambiente</li><li>Tempo adequado para realização das atividades</li><li>Diferentes formas de demonstrar conhecimento</li><li>Comunicação entre escola e família</li></ul>
+A inclusão não significa simplesmente colocar o estudante na mesma sala. É necessário pensar em participação, aprendizagem, acessibilidade, respeito e pertencimento.</div></article>
+<article id="cap12" class="chapter"><div class="chapter-num">12</div><h2>Família e rede de apoio</h2><div class="content">Receber um diagnóstico pode provocar diferentes emoções. Famílias podem experimentar dúvidas, medo, alívio, preocupação ou muitas outras reações.<br><br>
+Uma rede de apoio pode envolver familiares, professores, profissionais de saúde, profissionais da educação, associações, grupos de apoio e comunidade.<br><br>
+Também é importante lembrar que os cuidadores precisam de apoio. Cuidar de outra pessoa não significa deixar de cuidar de si mesmo.</div></article>
+<article id="cap13" class="chapter"><div class="chapter-num">13</div><h2>Intervenções e acompanhamento</h2><div class="content">O acompanhamento deve ser individualizado. Dependendo das necessidades da pessoa, podem participar profissionais de psicologia, fonoaudiologia, terapia ocupacional, fisioterapia, medicina, pedagogia e educação especializada, entre outras áreas pertinentes.<br><br>
+O objetivo do acompanhamento não deve ser simplesmente fazer a pessoa parecer “menos autista”. O foco deve estar em promover comunicação, autonomia, participação, aprendizagem, segurança e qualidade de vida.<br><br>
+Qualquer intervenção deve considerar evidências científicas, necessidades individuais, objetivos claros e respeito à pessoa.</div></article>
+<article id="cap14" class="chapter"><div class="chapter-num">14</div><h2>Mitos e verdades</h2><div class="content"><div class="myth"><b>“Toda pessoa autista é igual.”</b><span>MITO — O espectro é amplo e as características variam significativamente.</span></div>
+<div class="myth"><b>“Toda pessoa autista não fala.”</b><span>MITO — Algumas pessoas não utilizam fala, enquanto outras possuem linguagem verbal fluente.</span></div>
+<div class="myth"><b>“Autismo é causado por falta de carinho dos pais.”</b><span>MITO — Essa afirmação não corresponde ao conhecimento científico atual.</span></div>
+<div class="myth"><b>“Vacinas causam autismo.”</b><span>MITO — As evidências científicas disponíveis não sustentam uma relação causal entre vacinação e autismo.</span></div>
+<div class="myth"><b>“Pessoas autistas podem aprender.”</b><span>VERDADE — Podem aprender e desenvolver habilidades, com caminhos, ritmos e apoios variados.</span></div>
+<div class="myth"><b>“O autismo pode desaparecer com uma terapia.”</b><span>MITO — Intervenções podem apoiar habilidades, autonomia e qualidade de vida, mas não devem ser apresentadas como uma “cura” garantida.</span></div></div></article>
+<article id="cap15" class="chapter"><div class="chapter-num">15</div><h2>Como promover a inclusão</h2><div class="content">A inclusão começa pelo respeito.
+<ul><li>Pergunte antes de ajudar.</li><li>Respeite limites.</li><li>Evite infantilizar adultos autistas.</li><li>Não presuma incapacidade.</li><li>Ofereça comunicação acessível.</li><li>Respeite diferentes formas de interação.</li><li>Reduza barreiras sensoriais quando possível.</li><li>Combata preconceitos e estereótipos.</li><li>Valorize autonomia.</li></ul>
+Uma sociedade inclusiva não exige que todas as pessoas sejam iguais. Ela procura garantir que diferentes pessoas possam participar dela.</div></article>
+<article id="cap16" class="chapter"><div class="chapter-num">16</div><h2>Direitos e cidadania</h2><div class="content">No Brasil, pessoas com deficiência possuem direitos previstos em legislação, e o autismo é reconhecido juridicamente para fins de proteção de direitos.<br><br>
+Entre os temas relacionados à cidadania e inclusão estão educação, saúde, acessibilidade, assistência social, trabalho, participação social e proteção contra discriminação.<br><br>
+Como regras, procedimentos e documentos podem mudar, é importante consultar fontes oficiais e atualizadas para verificar os direitos aplicáveis a cada situação.</div></article>
+<article id="cap17" class="chapter"><div class="chapter-num">17</div><h2>Como acolher uma pessoa autista</h2><div class="content">Acolher não significa tratar todos da mesma maneira. Significa compreender que cada pessoa pode precisar de diferentes tipos de apoio.
+<div class="quote">“Como posso ajudar?”</div>
+<h3>Evite</h3><ul><li>Forçar contato visual</li><li>Ridicularizar movimentos repetitivos</li><li>Punir uma pessoa por apresentar uma sobrecarga sensorial</li><li>Presumir que ausência de fala significa ausência de compreensão</li><li>Tratar adultos como crianças</li><li>Utilizar o diagnóstico como justificativa para excluir alguém</li></ul>
+<h3>Procure</h3><ul><li>Ouvir</li><li>Observar</li><li>Adaptar</li><li>Respeitar</li><li>Oferecer escolhas</li><li>Incentivar autonomia</li></ul></div></article>
+<article id="cap18" class="chapter"><div class="chapter-num">18</div><h2>Conclusão</h2><div class="content">Compreender o autismo é compreender que existem diferentes maneiras de perceber, comunicar e experimentar o mundo.<br><br>
+Informação de qualidade pode ajudar famílias e profissionais a reconhecer necessidades, buscar apoio adequado e reduzir preconceitos.<br><br>
+Mais do que conhecer características e diagnósticos, é importante enxergar a pessoa.<br><br>
+Cada pessoa autista possui sua própria personalidade, história, interesses, habilidades, dificuldades, desejos e objetivos.<br><br>
+Inclusão significa criar condições para que essa pessoa possa participar da família, da escola, do trabalho e da sociedade com respeito e dignidade.
+<div class="pillars"><span>Conhecimento abre portas.</span><span>Respeito constrói pontes.</span><span>Inclusão transforma ambientes.</span></div></div></article>
+<article id="cap19" class="chapter"><div class="chapter-num">19</div><h2>Referências para aprofundamento</h2><div class="content">Para obter informações atualizadas e confiáveis, procure fontes como:
+<ul><li>Organização Mundial da Saúde (OMS)</li><li>Ministério da Saúde</li><li>Legislação brasileira sobre os direitos das pessoas com deficiência</li><li>Instituições acadêmicas e profissionais reconhecidas</li><li>Diretrizes clínicas e publicações científicas sobre transtorno do espectro autista</li></ul>
+<strong>Observação:</strong> este e-book tem finalidade educativa e não substitui avaliação ou orientação individualizada de profissionais qualificados.</div></article>
+</section>
+</main>
+<footer>
+<p><strong>“Antes de enxergar o diagnóstico, enxergue a pessoa.”</strong></p>
+<p>Que este material possa contribuir para uma sociedade com mais informação, respeito, acessibilidade e inclusão.</p>
+</footer>
+<a class="top" href="#top" aria-label="Voltar ao topo">↑</a>
+</body>
+</html>
+   ax steps:
+      - name: lidar autismo
+        id: deployment
+        uses: actions/deploy-pages@v5
+
